@@ -6,7 +6,7 @@
   <!-- 一级路由出口组件 -->
   <RouterView />
   <!-- end -->
-  <div class="test">text scss</div>
+  <!-- <div class="test">text scss</div> -->
 </template>
 
 <style scoped lang="scss">
