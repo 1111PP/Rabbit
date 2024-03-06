@@ -8,11 +8,13 @@ import HomePanel from './components/HomePanel.vue'
 </script>
 
 <template>
-    <div class="container">
-        <HomeCategory />
-        <HomeBanner />
+    <div>
+        <div class="container">
+            <HomeCategory />
+            <HomeBanner />
+        </div>
+        <HomeNew />
+        <HomeHot />
     </div>
-    <HomeNew />
-    <HomeHot />
     <!-- <HomeProduct /> -->
 </template>

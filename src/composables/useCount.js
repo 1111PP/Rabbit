@@ -2,7 +2,7 @@
 import { computed, ref, onUnmounted } from 'vue'
 import dayjs from 'dayjs' //第三方格式化插件dayjs
 export const useCountDown = () => {
-    const timer = null //定时器开关
+    let timer = null //定时器开关
     // 1.响应式数据
     const time = ref(0) //format计划
     //格式化(format)时间：xx分xx秒

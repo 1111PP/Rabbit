@@ -13,7 +13,7 @@ const userStore = useUserStore()
 //表单校验 (账号名+密码)
 //1，准备表单对象
 const form = ref({
-    account: '12056258282',//      12056258282
+    account: 'heima282',//      12056258282
     password: 'hm#qd@23!',//     hm#qd@23!
     agree: true//记录用户是否同意协议
 })
