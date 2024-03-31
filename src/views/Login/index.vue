@@ -29,7 +29,9 @@ const rules = {
     ],
     //定义用户协议规则（此规则为自定义校验规则，内要根据validator函数自定义规则）
     agree: [
+
         {
+            // trigger:"change",
             //有三个参数rule规则、value绑定元素的值（此规则绑定）、callback）
             validator: (rule, value, callback) => {
                 console.log(value);
